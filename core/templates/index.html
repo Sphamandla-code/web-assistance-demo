@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% include "nav.html" %}
+
+    <div class="row">
+        <div class="col m7">
+            <center>
+                <div class="head brown lighten-2">
+                    <div class="eyes">
+                        <div class="left-eye eye left">
+                            <div class="eye-ball"></div>
+                        </div>
+                        <div class="right-eye eye right">
+                            <div class="eye-ball"></div>
+                        </div>
+                    </div>
+                    <div class="mask"></div>
+                    <div class="mark-holder"></div>
+                    <div class="topleftholder"></div>
+                    <div class="toprightholder"></div>
+                    <div class="mark-holder-right"></div>
+                </div>
+                <div class="ear-right"></div>
+                <div class="ear-left"></div>
+                <div class="hear"></div>
+            </center>
+        </div>
+        <div class="col m5">
+            <div class="card-panel">
+                <h5>About web page</h5>
+                The purpose of this web page is to showcase a demo of a web assistance, more like pesonal assistace except it tell you information related to a partcular business. when you ask.
+            </div>
+            <div class="card-panel">
+                <h4>Questions you may ask</h4>
+                <ul><li>time & date</li><li>what this page is about</li></ul>
+            </div>
+            <div class="card-panel">
+                <div class="input-field">
+                    <input type="text" id="question">
+                    <label for="question">Ask You Question</label>
+                </div>
+                <button class="btn blue waves-effect" id="ans">answer</button>
+            </div>
+        </div>
+    </div>
+
+   
+
+    <div class="row" id="question_box">
+        <div class="container">
+            <div class="col m6">
+                
+            </div>
+            <div class="col m6">
+                
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

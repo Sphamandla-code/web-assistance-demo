@@ -1,0 +1,134 @@
+html{
+    background: url('../img/background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+.brand-logo{
+    width: 70px;
+}
+.recent-post{
+    height: 250px;
+    overflow: auto;
+}
+.clear{
+    clear: both;
+}
+
+.head {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 45%;
+    z-index: 2;
+}
+.eyes{
+    position: relative;
+    top: 55px;
+}
+.eye{
+    width: 55px;
+    height: 20px;
+    border-radius: 50%;
+    margin:0px 23px;
+    background: rgb(247, 246, 245);
+}
+.right-eye{
+    position: relative;
+    top: -18px;
+}
+.right-eye:hover{
+    background: rgb(163, 138, 104);
+}
+.left-eye:hover{
+    background-color: burlywood;
+}
+.eye-ball{
+    width: 30px;
+    height: 15px;
+    border-radius: 45%;
+    margin-top: 3px;
+    background: rgb(32, 29, 29);
+}
+.mask{
+    background: rgb(75, 72, 72);
+    width: 150px;
+    height: 80px;
+    position: relative;
+    top: 100px;
+    left: -13px;
+    border-top: 10%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    margin-left: 25px;
+    z-index: 3;
+}
+.ear-left{
+    position: relative;
+    top: -175px;
+    left: -105px;
+    background: rgb(163, 138, 104);
+    width: 20px;
+    height: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.ear-right{
+    position: relative;
+    top: -127px;
+    left: 105px;
+    background: rgb(163, 138, 104);
+    width: 20px;
+    height: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.hear{
+    background: black;
+    width: 206px;
+    height: 100px;
+    position: relative;
+    top: -320px;
+    left: -1px;
+    z-index: -1;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.mark-holder{
+    background: rgb(177, 175, 175);
+    width: 50px;
+    height: 10px;
+    transform: rotate(140deg);
+    position: relative;
+    top: 53px;
+    left: 80px;
+    border-radius: 50%;
+}
+.mark-holder-right{
+    background: rgb(177, 175, 175);
+    width: 40px;
+    height: 10px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -30px;
+    left: -83px;
+    border-radius: 50%;
+}
+.topleftholder{
+    background: rgb(177, 175, 175);
+    width: 50px;
+    height: 10px;
+    transform: rotate(42deg);
+    position: relative;
+    top: 50px;
+    left: -82px;
+    border-radius: 50%;
+}
+.toprightholder{
+    background: rgb(177, 175, 175);
+    width: 50px;
+    height: 10px;
+    transform: rotate(130deg);
+    position: relative;
+    top: -20px;
+    left: 80px;
+    border-radius: 50%;
+}
